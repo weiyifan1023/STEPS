@@ -2,7 +2,17 @@
 
 > A framework ( named STEPS ) improves LLM skill compositional generalization by using structural entropy and an Information Maximization strategy to synthesize a diverse yet coherent taxonomy of skill combinations.
 
+<p align="center">
+<a href="https://github.com/weiyifan1023/Neeko/blob/main/LICENSE">
+<img src='https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg'></a>
+<img src='https://img.shields.io/badge/python-3.10+-blue.svg'>
+<img src='https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg'>
+</p>
 
+<p align="center">
+🔔 <a href="https://github.com/weiyifan1023/STEPS" target="_blank">Code</a> • 📃 <a href="https://arxiv.org/pdf/2601.03676" target="_blank">Paper</a> • 🤗 <a href="https://huggingface.co/Weiyifan/datasets" target="_blank">Dataset</a> 
+📦 <a href="https://huggingface.co/Weiyifan/models" target="_blank">Models</a> <br>
+</p>
 
 ## 🚀 **Highlights**
 - ✅ **Skills: Finding the "Compositional Gap"**: LLMs are good at single skills (Atomic Skills), but they struggle when they need to combine multiple skills because those complex combinations are rare in training data.
@@ -79,6 +89,12 @@ Please run the scripts in the following numerical order:
 
 - **Script**: `5_openai_gen_skills_agent.py`
 - **Description**: Generates the **[SkillBench](https://huggingface.co/datasets/Weiyifan/SkillBench)**, a specialized evaluation suite designed to test model capabilities in tool invocation, planning, and multi-step reasoning in agentic scenarios.
+
+#### 6. Training Your Models
+
+```bash
+llm_rlhf\step1_supervised_finetuning\train_scripts
+```
 
 
 
